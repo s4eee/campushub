@@ -72,7 +72,7 @@ CampusHub serves as a centralized event discovery platform for students, reducin
 
 ## Status
 
-🚧 Currently in planning and development.
+Currently in planning and development.
 
 
 ## Contributing
