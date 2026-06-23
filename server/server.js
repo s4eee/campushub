@@ -1,4 +1,5 @@
 require('dotenv').config();
+const Event = require('./models/Event');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -8,6 +9,7 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use('/api/events', require('./routes/events'));
 
 // Basic Route to test connection
 app.get('/', (req, res) => {
